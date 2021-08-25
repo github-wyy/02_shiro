@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    我是主页面
+    <a href="/logout">退出</a>
+    <hr>
+    <span shiro:hasRole="role3">有角色</span><br>
+    <span shiro:user="">shiro:user=””认证通过或已记住的用户</span><br>
+    <span shiro:authenticated="">shiro:authenticated=””认证通过的用户。不包含记住的用户。</span><br>
+    <hr>
+    <a href="/demo">测试后台逻辑代码的授权</a>
+
+</body>
+</html>
