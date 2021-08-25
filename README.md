@@ -1,2 +1,2 @@
-# 02_shiro_spring_login
-spring整合shiro登录案例
+# 02_shiro
+springboot整合shiro登录案例
